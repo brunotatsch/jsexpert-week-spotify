@@ -1,0 +1,24 @@
+{
+  "name": "jsexpert-week-spotify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/brunotatsch/jsexpert-week-spotify.git",
+  "author": "Bruno Tatsch <brunotatsch@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/index.js",
+    "live-reload": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exite 1"
+  },
+  "engines": {
+    "node": "17"
+  },
+  "devDependencies": {
+    "nodemon": "2"
+  },
+  "dependencies": {
+    "pino": "7.8.0",
+    "pino-pretty": "7.5.3"
+  }
+}
